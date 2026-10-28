@@ -1,0 +1,45 @@
+import os
+GTM_ID=os.environ.get('GTM_ID','GTM-TEST123')
+import json
+from playwright.sync_api import sync_playwright
+B=os.environ.get('BASE','http://127.0.0.1:8766'); out=[]
+def ok(n,c,e=''): out.append(('PASS' if c else 'FAIL',n,e))
+with sync_playwright() as p:
+    b=p.chromium.launch()
+    # rechazar
+    ctx=b.new_context(); pg=ctx.new_page(); ext=[]; pg.on('request',lambda r: ext.append(r.url) if 'googletagmanager' in r.url else None)
+    pg.route('**googletagmanager.com/**', lambda r: r.fulfill(status=200, content_type='application/javascript', body='window.__gtm_loaded=1;'))
+    pg.goto(B+'/'); pg.wait_for_timeout(400)
+    ok('banner visible la primera vez', pg.is_visible('#consent'))
+    ok('GTM NO carga antes de decidir', not ext)
+    ok('Consent Mode default denegado', pg.evaluate("[...dataLayer].some(a=>a[0]==='consent'&&a[1]==='default'&&a[2].analytics_storage==='denied')"))
+    pg.click('[data-consent=denied]'); pg.wait_for_timeout(300)
+    ok('rechazar oculta banner', not pg.is_visible('#consent'))
+    ok('tras rechazar GTM no carga', not ext)
+    pg.goto(B+'/contacto/'); pg.click('#f-nombre'); pg.click('a[href="/servicios/"]') if False else None
+    ok('rechazado: sin eventos en dataLayer', not pg.evaluate("dataLayer.some(a=>a&&a.event==='form_start')"))
+    pg.goto(B+'/'); ok('decisión recordada (sin banner)', not pg.is_visible('#consent'))
+    ctx.close()
+    # aceptar
+    ctx=b.new_context(); pg=ctx.new_page(); ext=[]; pg.on('request',lambda r: ext.append(r.url) if 'googletagmanager' in r.url else None)
+    pg.route('**googletagmanager.com/**', lambda r: r.fulfill(status=200, content_type='application/javascript', body='window.__gtm_loaded=1;'))
+    pg.route('**/', lambda r: r.fulfill(status=200, body='ok') if r.request.method=='POST' else r.continue_())
+    pg.goto(B+'/contacto/?servicio=Meta%20Ads'); pg.click('[data-consent=granted]'); pg.wait_for_timeout(500)
+    ok('aceptar carga GTM con el id', any(GTM_ID in u for u in ext), str(ext))
+    ok('consent update granted', pg.evaluate("[...dataLayer].some(a=>a[0]==='consent'&&a[1]==='update'&&a[2].analytics_storage==='granted')"))
+    pg.click('#f-nombre')
+    ok('form_start al primer foco', pg.evaluate("dataLayer.filter(a=>a&&a.event==='form_start').length")==1)
+    pg.click('#f-email'); ok('form_start solo una vez', pg.evaluate("dataLayer.filter(a=>a&&a.event==='form_start').length")==1)
+    pg.fill('#f-nombre','A'); pg.fill('#f-email','a@b.cl'); pg.fill('#f-mensaje','x'); pg.check('#f-consentimiento')
+    with pg.expect_navigation(url='**/gracias/'): pg.click('button[type=submit]')
+    pg.wait_for_timeout(500)
+    ok('generate_lead en /gracias/ (1 vez)', pg.evaluate("dataLayer.filter(a=>a&&a.event==='generate_lead').length")==1)
+    pg.reload(); pg.wait_for_timeout(400)
+    ok('recargar /gracias/ no duplica el lead', pg.evaluate("dataLayer.filter(a=>a&&a.event==='generate_lead').length")==0)
+    pg.goto(B+'/'); pg.evaluate("document.querySelectorAll('a').forEach(a=>a.addEventListener('click',e=>e.preventDefault()))"); pg.click('a[data-track=contact][data-location=hero]')
+    ok('click_contact con ubicación', pg.evaluate("dataLayer.some(a=>a&&a.event==='click_contact'&&a.ubicacion==='hero')"))
+    pg.goto(B+'/servicios/'); pg.evaluate("document.querySelectorAll('a').forEach(a=>a.addEventListener('click',e=>e.preventDefault()))"); pg.click('a.servicio-card[data-service=google-ads]')
+    ok('click_service_cta con servicio', pg.evaluate("dataLayer.some(a=>a&&a.event==='click_service_cta'&&a.servicio==='google-ads')"))
+    ctx.close(); b.close()
+for r in out: print(*r)
+print('PASS',sum(r[0]=='PASS' for r in out),'FAIL',sum(r[0]=='FAIL' for r in out))

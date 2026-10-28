@@ -1,0 +1,98 @@
+{
+  "orden": 3,
+  "slug": "meta-ads",
+  "url": "/meta-ads/",
+  "nombre": "Meta Ads",
+  "grafico": "g-meta",
+  "problema": "Tus anuncios en Facebook e Instagram generan clics, pero no contactos de calidad.",
+  "resumen": "Publicidad en Facebook e Instagram con creatividades probadas y eventos de conversión confiables.",
+  "title": "Agencia Meta Ads en Chile: Facebook e Instagram Ads | Tabano",
+  "description": "Gestión de campañas en Meta Ads para empresas: audiencias, creatividades, experimentación y medición de conversiones en Facebook e Instagram.",
+  "h1": "Publicidad en Facebook e Instagram con Meta Ads",
+  "kicker": "Servicio · Meta Ads",
+  "lead": "Meta Ads es la plataforma publicitaria de Meta: permite mostrar anuncios en Facebook, Instagram, Messenger, WhatsApp y Audience Network desde un mismo administrador. A diferencia de Google Ads, donde la persona busca activamente, aquí el anuncio aparece mientras alguien consume contenido, por eso el mensaje, la creatividad y la medición pesan tanto.",
+  "serviceType": "Gestión y optimización de campañas de Meta Ads",
+  "cta": { "titulo": "¿Quieres mejorar tus campañas en Meta Ads?", "texto": "Cuéntanos cuál es tu oferta, a quién le vendes y cómo mides hoy los resultados." },
+  "relacionados": { "servicios": ["google-ads", "desarrollo-web", "growth-marketing"], "recursos": ["google-ads-para-empresas-cuando-conviene-invertir", "como-elegir-agencia-marketing-digital-chile"] },
+  "secciones": [
+    {
+      "id": "facebook-e-instagram",
+      "h2": "Publicidad en Facebook e Instagram",
+      "parrafos": [
+        "Meta Ads sirve para captar contactos, generar ventas, llevar visitas a tu sitio o dar a conocer una oferta. Cada objetivo cambia la estructura de la campaña, el tipo de anuncio y la forma de medir.",
+        "Es especialmente útil cuando tu oferta se entiende de forma visual, cuando quieres llegar a públicos que aún no te buscan o cuando necesitas volver a impactar a quienes ya visitaron tu sitio. Para demanda que ya busca activamente, suele complementarse con [Google Ads](/google-ads/)."
+      ]
+    },
+    {
+      "id": "estrategia-de-audiencias",
+      "h2": "Estrategia de audiencias",
+      "parrafos": ["Meta ha automatizado buena parte de la segmentación, y hoy el rendimiento depende mucho de la calidad de los eventos de conversión y de la creatividad. Aun así, definimos una estrategia de audiencias y la probamos antes de escalar:"],
+      "items": [
+        "**Audiencias amplias:** dejan que el sistema encuentre al público a partir de señales de conversión sólidas.",
+        "**Intereses y comportamientos:** para acotar un público específico cuando la oferta lo requiere.",
+        "**Públicos personalizados:** visitantes del sitio, personas que interactuaron con tu contenido y listas de clientes, siempre con base legal para usarlas.",
+        "**Públicos similares:** personas parecidas a tus clientes actuales.",
+        "**Exclusiones:** para no impactar a quien ya convirtió."
+      ]
+    },
+    {
+      "id": "creatividades-y-mensajes",
+      "h2": "Creatividades y mensajes",
+      "parrafos": ["Cada anuncio debe resolver rápido tres preguntas: ¿para quién es?, ¿qué problema resuelve? y ¿qué acción debo tomar? Probamos formatos (imagen, video corto, carrusel), ángulos de mensaje y llamadas a la acción. Vigilamos la fatiga creativa y renovamos las piezas según su rendimiento."]
+    },
+    {
+      "id": "estructura-de-campanas",
+      "h2": "Estructura de campañas",
+      "parrafos": ["La estructura depende del objetivo del negocio. Estas son las opciones más frecuentes:"],
+      "tabla": {
+        "caption": "Objetivos de campaña en Meta Ads y su medición",
+        "cabeceras": ["Objetivo", "Cuándo usarlo", "Cómo medirlo"],
+        "filas": [
+          ["Clientes potenciales", "Captar contactos con formularios de Meta o desde tu sitio", "Eventos de lead y calidad de los contactos en tu CRM"],
+          ["Ventas", "Tiendas o servicios con compra o reserva en línea", "Eventos de conversión con valor y retorno sobre la inversión"],
+          ["Tráfico", "Llevar visitas a contenido o a una página específica", "Visitas de calidad y comportamiento posterior; un clic no es una conversión"],
+          ["Reconocimiento", "Dar a conocer una marca o una oferta", "Alcance y frecuencia; se interpreta con cautela"]
+        ]
+      }
+    },
+    {
+      "id": "experimentacion-de-anuncios",
+      "h2": "Experimentación de anuncios",
+      "parrafos": ["Probamos una variable a la vez (creatividad, mensaje, audiencia u oferta) con criterios de éxito definidos y un volumen mínimo de datos antes de decidir. Documentamos los aprendizajes para que cada prueba mejore la siguiente y para que tu equipo conserve ese conocimiento."]
+    },
+    {
+      "id": "medicion-y-conversiones",
+      "h2": "Medición, eventos y seguimiento de conversiones",
+      "parrafos": ["La optimización de Meta Ads depende de recibir buenas señales. Dejamos configurado:"],
+      "items": [
+        "**Meta Pixel** para registrar eventos en el sitio.",
+        "**API de Conversiones** para enviar eventos desde el servidor y complementar al pixel, cuando corresponde ([documentación de Meta sobre eventos duplicados](https://developers.facebook.com/docs/marketing-api/conversions-api/deduplicate-pixel-and-server-events)).",
+        "**Eventos estándar** (por ejemplo Lead, Contact o Purchase) con parámetros útiles.",
+        "**Revisión de calidad y deduplicación** de eventos.",
+        "**Medición del recorrido completo** con GA4 y, si existe, con tu CRM."
+      ],
+      "nota": "Los resultados que reporta Meta y los de tus otras herramientas pueden diferir por modelos de atribución y por consentimiento. Los contrastamos con tus datos de negocio."
+    },
+    {
+      "id": "remarketing-y-privacidad",
+      "h2": "Remarketing y privacidad",
+      "parrafos": [
+        "El remarketing vuelve a impactar a personas que ya interactuaron con tu marca. Se hace respetando el consentimiento, las políticas de Meta y la normativa de protección de datos personales aplicable en Chile. Evitamos categorías sensibles y no cargamos listas de clientes sin una base legal para hacerlo.",
+        "En esta web explicamos cómo tratamos los datos en la [política de privacidad](/privacidad/)."
+      ]
+    },
+    {
+      "id": "integracion-con-landing-pages",
+      "h2": "Integración con landing pages",
+      "parrafos": ["La página de destino debe continuar el mensaje del anuncio, cargar rápido en móvil y pedir solo los datos necesarios. Conectamos el sitio con los eventos de conversión y probamos variaciones de formulario y de oferta dentro de una estrategia de [growth marketing](/growth-marketing/)."]
+    }
+  ],
+  "faqs": [
+    { "q": "¿Conviene Meta Ads o Google Ads?", "a": "Responden a situaciones distintas. Google Ads capta a quien ya está buscando; Meta Ads te permite llegar a personas que aún no te buscan y volver a impactar a quienes visitaron tu sitio. Muchas empresas usan ambos, en proporciones que dependen del objetivo y el presupuesto." },
+    { "q": "¿Cuánto debo invertir?", "a": "Depende del objetivo, del costo por resultado que puedas pagar y del volumen que necesitas. Un método simple es partir del número de contactos o ventas que buscas y trabajar hacia atrás con tasas de conversión estimadas, que luego se ajustan con datos reales." },
+    { "q": "¿Sirve para empresas B2B?", "a": "Puede servir para captar contactos y para hacer remarketing, pero hay que validarlo caso a caso: el público es más acotado y la calidad de los contactos pesa más que el volumen." },
+    { "q": "¿Qué pasa si no tengo Meta Pixel instalado?", "a": "Se configura como parte del proyecto, junto con los eventos de conversión y, cuando corresponde, la API de Conversiones, siempre respetando el consentimiento de las personas." },
+    { "q": "¿Pueden revisar la cuenta publicitaria que ya tengo?", "a": "Sí. Hacemos una auditoría de la estructura, los eventos de conversión, las audiencias y las creatividades, y te entregamos recomendaciones priorizadas." },
+    { "q": "¿Garantizan resultados?", "a": "No. Nadie puede garantizar resultados en una subasta publicitaria. Nos comprometemos con un proceso claro: medición confiable, pruebas ordenadas y decisiones basadas en datos." }
+  ]
+}

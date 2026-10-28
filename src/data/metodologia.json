@@ -1,0 +1,7 @@
+[
+  { "n": 1, "titulo": "Diagnóstico", "texto": "Entendemos el negocio, la oferta y el estado actual del sitio, las campañas y la medición.", "entregables": ["Objetivos y restricciones", "Auditoría de sitio, campañas y analítica", "Mapa de oportunidades"] },
+  { "n": 2, "titulo": "Estrategia", "texto": "Definimos prioridades, canales y metas con indicadores medibles.", "entregables": ["Plan por etapas", "Indicadores y metas", "Hipótesis priorizadas"] },
+  { "n": 3, "titulo": "Implementación", "texto": "Construimos y lanzamos el sitio, las campañas y la medición, con un alcance acordado.", "entregables": ["Sitio o páginas de destino", "Campañas configuradas", "Eventos de conversión"] },
+  { "n": 4, "titulo": "Medición", "texto": "Verificamos que los datos sean confiables y reportamos con definiciones claras.", "entregables": ["Paneles e informes", "Revisión de calidad de datos", "Lectura de resultados"] },
+  { "n": 5, "titulo": "Optimización continua", "texto": "Probamos, aprendemos y ajustamos con datos reales.", "entregables": ["Backlog de experimentos", "Decisiones documentadas", "Ajustes de presupuesto y mensajes"] }
+]

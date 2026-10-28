@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "cristobal-sanhueza",
+    "nombre": "Cristóbal Sanhueza",
+    "rol": "Growth y performance marketing",
+    "bioCorta": "Growth Marketer y Performance Marketing Specialist con más de 12 años de experiencia en marketing digital. Cofundador de GrúaFácil.",
+    "bio": [
+      "Growth Marketer y Performance Marketing Specialist con más de 12 años de experiencia en marketing digital, radicado en Viña del Mar. Ha hecho crecer empresas SaaS y B2B en Chile y LATAM con Google Ads, Meta Ads, LinkedIn Ads, SEO y automatización con inteligencia artificial, y mide el embudo completo hasta la venta: su foco son los leads calificados que se convierten en reuniones comerciales, no el volumen que se ve bien en un reporte.",
+      "Ha trabajado en SimpliRoute, Microsystem, Nubox, Crack The Code, Capitaria Latam, Avnet Technology Solutions Chile y Banco de Chile, asumiendo tanto desafíos de liderazgo como de especialista de área, y ha construido áreas de Growth desde cero.",
+      "Además es cofundador de GrúaFácil, una plataforma que permitía transportar un vehículo en cualquier momento y recibir asistencia en ruta."
+    ],
+    "foto": "/assets/img/equipo/cristobal-sanhueza.jpg",
+    "fotoAlt": "Retrato de Cristóbal Sanhueza",
+    "url": "https://cristobalsanhueza.cl",
+    "urlTexto": "cristobalsanhueza.cl",
+    "servicios": [
+      "google-ads",
+      "meta-ads",
+      "growth-marketing"
+    ]
+  },
+  {
+    "slug": "juan-sanhueza",
+    "nombre": "Juan Sanhueza",
+    "rol": "Desarrollo web y software",
+    "bioCorta": "Desarrollador de software con 10 años de experiencia en tecnología, construcción de software y consultoría. Cofundador de GrúaFácil.",
+    "bio": [
+      "Desarrollador de software con 10 años de experiencia en tecnología, construcción de software y consultoría. Ha estado en roles como Líder Técnico y Senior Developer en Falabella Financiero, FPay, Ocular Solution y Drimo. Su visión es desarrollar productos innovadores a través del software, con mirada principal en la experiencia de usuario y en la búsqueda de la eficiencia.",
+      "Además es cofundador de GrúaFácil, una plataforma de traslado de vehículos y asistencia en ruta."
+    ],
+    "foto": "/assets/img/equipo/juan-sanhueza.jpg",
+    "fotoAlt": "Retrato de Juan Sanhueza",
+    "url": "https://github.com/jsanhuez",
+    "urlTexto": "github.com/jsanhuez",
+    "servicios": [
+      "desarrollo-web"
+    ]
+  }
+]

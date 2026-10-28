@@ -1,0 +1,151 @@
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker rise">Agencia de marketing digital en Chile</p>
+      <h1 id="h1" class="rise rise-2">Desarrollo web, publicidad y growth para empresas que quieren <em>crecer con datos</em></h1>
+      <p class="lead rise rise-3">Diseñamos sitios web que convierten, gestionamos campañas en Google Ads y Meta Ads, y medimos cada paso para que las decisiones de marketing se apoyen en evidencia.</p>
+      <div class="actions rise rise-4">
+        <a class="btn btn-primary" href="/contacto/" data-track="contact" data-location="hero">Solicitar diagnóstico <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-ghost" href="/servicios/" data-track="service_cta" data-service="todos" data-location="hero">Ver servicios</a>
+      </div>
+      <p class="muted rise rise-4" style="margin-top:1.5rem;max-width:34rem;font-size:.95rem">Sin promesas de resultados garantizados: partimos por entender tu negocio, tu oferta y tus datos.</p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 480 440" focusable="false">
+        <circle class="anillo" cx="240" cy="220" r="70"/>
+        <circle class="anillo" cx="240" cy="220" r="125"/>
+        <circle class="anillo" cx="240" cy="220" r="180"/>
+        <path class="trazo" d="M40 60C140 70 200 140 240 220"/>
+        <path class="trazo" d="M440 50C350 80 280 140 240 220"/>
+        <path class="trazo" d="M30 380C120 350 200 290 240 220"/>
+        <path class="trazo" d="M450 390C360 350 285 290 240 220"/>
+        <path class="trazo" d="M240 8C246 80 242 150 240 220"/>
+        <path class="trazo" d="M10 220C80 226 170 222 240 220"/>
+        <path class="trazo" d="M470 220C400 214 310 218 240 220"/>
+        <path class="trazo" d="M240 432C234 360 238 290 240 220"/>
+        <circle class="punto" cx="40" cy="60" r="6"/>
+        <circle class="punto-acento" cx="440" cy="50" r="8"/>
+        <circle class="punto" cx="30" cy="380" r="6"/>
+        <circle class="punto" cx="450" cy="390" r="6"/>
+        <circle class="punto" cx="240" cy="8" r="4"/>
+        <circle class="punto-acento" cx="10" cy="220" r="6"/>
+        <circle class="punto" cx="470" cy="220" r="4"/>
+        <circle class="punto" cx="240" cy="432" r="4"/>
+        <circle class="foco" cx="240" cy="220" r="24"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="problemas-t">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">Propuesta de valor</p>
+      <h2 id="problemas-t">Cuatro problemas frecuentes en el marketing digital de una empresa</h2>
+      <p>Tabano existe para resolverlos con una estrategia conectada, no con piezas sueltas.</p>
+    </div>
+    <div class="problemas">
+      {{#each problemas as p}}
+      <article>
+        <h3>{{ p.titulo }}</h3>
+        <p>{{ p.texto }}</p>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="servicios-t">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">Servicios</p>
+      <h2 id="servicios-t">Cuatro servicios que se complementan</h2>
+      <p>Puedes contratar uno solo o combinarlos. Todos comparten la misma base: objetivos claros, medición y mejora continua.</p>
+    </div>
+    <div class="grid-4">
+      {{#each servicios as s}}{{> servicio-card}}{{/each}}
+    </div>
+    <p style="margin-top:2rem"><a class="arrow-link" href="/servicios/">Comparar los servicios <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a></p>
+  </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="metodo-t">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">Metodología</p>
+      <h2 id="metodo-t">Cómo trabajamos, en cinco pasos</h2>
+      <p>Un proceso simple y repetible, que termina donde empieza: midiendo para decidir qué mejorar.</p>
+    </div>
+    <ol class="pasos">
+      {{#each metodologia as m}}
+      <li>
+        <h3>{{ m.titulo }}</h3>
+        <p>{{ m.texto }}</p>
+        <ul>{{#each m.entregables as e}}<li>{{ e }}</li>{{/each}}</ul>
+      </li>
+      {{/each}}
+    </ol>
+  </div>
+</section>
+
+<section class="section section-dark" aria-labelledby="principios-t">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">Diferenciación</p>
+      <h2 id="principios-t">Lo que nos diferencia es una forma de trabajar, no una promesa</h2>
+    </div>
+    <div class="principios">
+      {{#each principios as p}}
+      <article>
+        <h3>{{ p.titulo }}</h3>
+        <p>{{ p.texto }}</p>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="confianza-t">
+  <div class="wrap duo">
+    <div>
+      <p class="kicker">Confianza</p>
+      <h2 id="confianza-t">Qué puedes verificar hoy</h2>
+      <p class="lead">En vez de logos o cifras sin respaldo, preferimos mostrarte cosas que puedes comprobar por tu cuenta.</p>
+    </div>
+    <div>
+      <ul class="check-list">
+        <li><strong>Este sitio.</strong> Está construido con HTML semántico, enlaces internos claros, datos estructurados y medición que respeta el consentimiento.</li>
+        <li><strong>Guías con fecha.</strong> En <a href="/recursos/">Recursos</a> publicamos artículos con su fecha de actualización y, cuando corresponde, sus fuentes.</li>
+        <li><strong>Alcance por escrito.</strong> Cada propuesta define alcance, entregables e indicadores antes de comenzar.</li>
+        <li><strong>Casos solo con respaldo.</strong> Publicaremos <a href="/casos-de-exito/">casos de éxito</a> cuando el cliente lo autorice y las cifras puedan respaldarse.</li>
+      </ul>
+      {{{ pendienteConfianza }}}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="recursos-t">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">Recursos</p>
+      <h2 id="recursos-t">Guías para decidir mejor</h2>
+      <p>Contenido práctico sobre contratación, costos y publicidad digital.</p>
+    </div>
+    <div class="cards-articulos">
+      {{#each recientes as a}}{{> articulo-card}}{{/each}}
+    </div>
+    <p style="margin-top:2rem"><a class="arrow-link" href="/recursos/">Ver todos los recursos <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a></p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-t">
+  <div class="wrap narrow">
+    <div class="section-head">
+      <p class="kicker">Preguntas frecuentes</p>
+      <h2 id="faq-t">Lo que suelen preguntarnos antes de empezar</h2>
+    </div>
+    {{> faq}}
+  </div>
+</section>
+
+{{> cta}}

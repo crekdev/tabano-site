@@ -1,0 +1,7 @@
+<a class="cell servicio-card" href="{{ s.url }}" data-track="service_cta" data-service="{{ s.slug }}" data-location="{{ ubicacion }}">
+  <svg class="grafico" viewBox="0 0 120 84" aria-hidden="true" focusable="false"><use href="#{{ s.grafico }}"/></svg>
+  <h3>{{ s.nombre }}</h3>
+  <p class="problema">{{ s.problema }}</p>
+  <p class="resumen">{{ s.resumen }}</p>
+  <span class="arrow-link">Ver el servicio <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+</a>

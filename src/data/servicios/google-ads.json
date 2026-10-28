@@ -1,0 +1,118 @@
+{
+  "orden": 2,
+  "slug": "google-ads",
+  "url": "/google-ads/",
+  "nombre": "Google Ads",
+  "grafico": "g-google",
+  "problema": "Inviertes en anuncios, pero no sabes cuánto cuesta realmente cada cliente.",
+  "resumen": "Campañas en Google Ads con medición de conversiones y decisiones basadas en datos.",
+  "title": "Agencia Google Ads en Chile: gestión de campañas | Tabano",
+  "description": "Gestión y optimización de campañas en Google Ads para empresas: palabras clave, anuncios, landing pages, medición de conversiones e informes claros.",
+  "h1": "Gestión de campañas en Google Ads para empresas",
+  "kicker": "Servicio · Google Ads",
+  "lead": "Google Ads es la plataforma de publicidad de Google: permite mostrar anuncios a personas que están buscando lo que tu empresa ofrece. Gestionarla bien implica elegir las búsquedas correctas, enviar el tráfico a una página que convierta y medir cuántos contactos reales genera cada peso invertido.",
+  "serviceType": "Gestión y optimización de campañas de Google Ads",
+  "cta": { "titulo": "¿Quieres revisar tu estrategia en Google Ads?", "texto": "Cuéntanos qué vendes, cuánto vale un cliente para ti y qué has probado hasta ahora." },
+  "relacionados": { "servicios": ["desarrollo-web", "growth-marketing", "meta-ads"], "recursos": ["google-ads-para-empresas-cuando-conviene-invertir", "como-elegir-agencia-marketing-digital-chile"] },
+  "secciones": [
+    {
+      "id": "cuando-conviene",
+      "h2": "¿Cuándo conviene invertir en Google Ads?",
+      "parrafos": ["Conviene cuando hay personas buscando lo que ofreces, tu oferta es clara, puedes medir los resultados y el costo de conseguir un cliente es menor que lo que ese cliente te deja. Antes de invertir revisamos estas condiciones:"],
+      "items": [
+        "**Hay demanda en las búsquedas:** existen consultas relacionadas con tu servicio en el mercado al que apuntas.",
+        "**La oferta es clara:** quien llega entiende qué ofreces y qué debe hacer.",
+        "**La página de destino convierte:** carga rápido, responde a la búsqueda y facilita el contacto.",
+        "**Se puede medir:** formularios, llamadas o ventas quedan registrados como conversiones.",
+        "**Los números cierran:** conoces el valor de un cliente y cuánto puedes pagar por conseguirlo.",
+        "**Hay capacidad de respuesta:** tu equipo puede atender los contactos con rapidez."
+      ],
+      "nota": "Si falta alguna condición, suele ser más rentable resolverla antes de aumentar la inversión. Lo desarrollamos en [Google Ads para empresas: cuándo conviene invertir](/recursos/google-ads-para-empresas-cuando-conviene-invertir/)."
+    },
+    {
+      "id": "palabras-clave",
+      "h2": "Investigación de palabras clave",
+      "parrafos": ["Todo parte de entender qué buscan tus clientes y con qué intención. No es lo mismo quien busca «qué es» un servicio que quien busca «cotizar» ese servicio. Trabajamos con:"],
+      "items": [
+        "**Intención de búsqueda:** priorizamos consultas comerciales y transaccionales; las informativas se tratan con cuidado.",
+        "**Tipos de concordancia:** amplia, de frase y exacta, según cuánto control necesites.",
+        "**Palabras clave negativas** para evitar clics irrelevantes.",
+        "**Informe de términos de búsqueda:** revisamos lo que la gente realmente escribió para ajustar la campaña."
+      ]
+    },
+    {
+      "id": "estructura-de-campanas",
+      "h2": "Estructura de campañas",
+      "parrafos": ["Organizamos la cuenta por servicio o intención de búsqueda, con grupos de anuncios coherentes con la página de destino. Así se puede medir y decidir con claridad. Estos son los tipos de campaña que se consideran con más frecuencia:"],
+      "tabla": {
+        "caption": "Tipos de campaña de Google Ads y cuándo considerarlos",
+        "cabeceras": ["Tipo de campaña", "Para qué sirve", "Cuándo considerarla"],
+        "filas": [
+          ["Búsqueda", "Captar a personas que buscan activamente tu servicio", "Suele ser el punto de partida para empresas de servicios"],
+          ["Performance Max", "Automatizar la entrega en varios canales de Google a partir de objetivos y recursos creativos", "Cuando el seguimiento de conversiones es confiable y hay recursos creativos suficientes"],
+          ["Display y YouTube", "Dar visibilidad y hacer remarketing", "Para reforzar la marca o volver a impactar visitantes, no como único canal de captación"],
+          ["Shopping", "Mostrar productos de un catálogo", "Para tiendas con un feed de productos"]
+        ]
+      }
+    },
+    {
+      "id": "creacion-de-anuncios",
+      "h2": "Creación de anuncios",
+      "parrafos": [
+        "Los anuncios de búsqueda responsivos combinan varios títulos y descripciones que Google prueba y ordena. Escribimos mensajes que reflejan la intención de búsqueda, destacan una diferencia concreta y evitan promesas que el sitio no pueda cumplir.",
+        "Usamos recursos adicionales, como enlaces de sitio, llamadas y fragmentos destacados, cuando aportan información útil al anuncio."
+      ]
+    },
+    {
+      "id": "landing-pages",
+      "h2": "Landing pages y experiencia posterior al clic",
+      "parrafos": ["Un buen anuncio enviado a una página débil desperdicia presupuesto. Revisamos que la página responda a la búsqueda, cargue rápido en móvil, muestre la oferta sin distracciones y facilite el contacto. Si hace falta, diseñamos páginas de destino dedicadas dentro de un proyecto de [desarrollo web](/desarrollo-web/)."]
+    },
+    {
+      "id": "conversiones",
+      "h2": "Configuración y medición de conversiones",
+      "parrafos": ["Sin conversiones bien definidas, las campañas optimizan a ciegas. Dejamos configurado:"],
+      "items": [
+        "Qué cuenta como conversión: formulario enviado, llamada, clic en WhatsApp o compra.",
+        "La diferencia entre un intento de envío y un envío exitoso, para no duplicar conversiones.",
+        "Las etiquetas con Google Tag Manager y su relación con GA4.",
+        "La importación o el registro de conversiones en Google Ads.",
+        "El respeto por el consentimiento de las personas.",
+        "Cuando existe un CRM, la medición de la calidad de los contactos y no solo de la cantidad."
+      ]
+    },
+    {
+      "id": "optimizacion-de-presupuestos",
+      "h2": "Optimización de presupuestos",
+      "parrafos": ["El presupuesto se asigna según el rendimiento observado: campañas, palabras clave, horarios, ubicaciones y dispositivos. Se parte con hipótesis y se ajusta con datos. Un presupuesto demasiado bajo puede limitar el aprendizaje de la campaña; uno alto sin medición confiable desperdicia inversión."]
+    },
+    {
+      "id": "informes-y-decisiones",
+      "h2": "Informes y toma de decisiones",
+      "parrafos": ["Los informes muestran inversión, conversiones, costo por conversión y calidad de los contactos, con definiciones claras de cada métrica. Cada informe termina con decisiones: qué se mantiene, qué se pausa y qué se va a probar."]
+    },
+    {
+      "id": "factores-que-afectan-los-resultados",
+      "h2": "Factores que afectan los resultados",
+      "parrafos": ["Los resultados de una cuenta dependen de variables que no controla ninguna agencia:"],
+      "items": [
+        "La competencia en la subasta y el costo de los clics en tu rubro.",
+        "La relevancia de los anuncios y de la página de destino.",
+        "La estacionalidad de la demanda.",
+        "La velocidad y la calidad de la respuesta comercial a los contactos.",
+        "El margen y el valor del cliente.",
+        "La calidad del seguimiento de conversiones.",
+        "El presupuesto disponible y el tiempo de aprendizaje."
+      ],
+      "nota": "Por eso no prometemos cifras de resultados ni posiciones: trabajamos con hipótesis, medición y mejora continua."
+    }
+  ],
+  "faqs": [
+    { "q": "¿Cuánto cuesta una campaña de Google Ads?", "a": "Hay dos costos distintos: la inversión publicitaria, que se paga a Google según el presupuesto que definas, y la gestión de la cuenta. Al cotizar conviene separarlos. El monto de inversión adecuado depende del objetivo, del costo por contacto esperado y del volumen que necesitas." },
+    { "q": "¿Cuánto tarda en dar resultados?", "a": "Las campañas de búsqueda pueden empezar a generar tráfico apenas se publican, pero optimizarlas requiere datos y tiempo de aprendizaje. No prometemos plazos: los definimos junto con tus metas y revisamos avances con datos reales." },
+    { "q": "¿Necesito una landing page para anunciar?", "a": "No siempre, pero la página de destino influye mucho en el resultado. Si la página actual no responde a la búsqueda o no facilita el contacto, conviene mejorarla o crear una específica." },
+    { "q": "¿La cuenta de Google Ads queda a nombre de mi empresa?", "a": "Es lo recomendable: la cuenta, el historial y los datos son un activo de tu empresa. Lo dejamos acordado por escrito al inicio del trabajo." },
+    { "q": "¿Conviene más Google Ads o SEO?", "a": "Son complementarios. Google Ads permite aparecer cuando hay demanda y pagar por clic; el SEO construye visibilidad orgánica con el tiempo y requiere contenido y trabajo técnico. La combinación depende de tus plazos y tu presupuesto." },
+    { "q": "¿Funciona para cualquier rubro?", "a": "Depende de que existan búsquedas relacionadas con tu oferta y de que los números cierren. En el diagnóstico revisamos la demanda y el costo estimado antes de recomendar una inversión." }
+  ]
+}

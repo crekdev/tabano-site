@@ -1,0 +1,7 @@
+[
+  { "titulo": "Estrategia antes que ejecución aislada", "texto": "Un sitio, una campaña o un reporte por separado resuelven poco. Primero definimos qué se quiere lograr y cómo se conectan las piezas." },
+  { "titulo": "Decisiones basadas en datos", "texto": "Las opiniones sirven para formular hipótesis; los datos, para decidir. Medimos antes de optimizar." },
+  { "titulo": "Transparencia", "texto": "Alcance por escrito, métricas con definiciones claras y cuentas que quedan a nombre de tu empresa." },
+  { "titulo": "Experimentación", "texto": "Probamos de forma ordenada, una variable a la vez, y documentamos qué funcionó y qué no." },
+  { "titulo": "Mejora continua", "texto": "Un proyecto no termina al publicar: se mide, se aprende y se vuelve a mejorar." }
+]

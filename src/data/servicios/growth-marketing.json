@@ -1,0 +1,116 @@
+{
+  "orden": 4,
+  "slug": "growth-marketing",
+  "url": "/growth-marketing/",
+  "nombre": "Growth marketing",
+  "grafico": "g-growth",
+  "problema": "Tus canales funcionan por separado y nadie sabe qué cambio mejoraría el resultado.",
+  "resumen": "Estrategia, analítica y experimentación para mejorar todo el recorrido del cliente.",
+  "title": "Growth marketing: estrategia y experimentación | Tabano",
+  "description": "Consultoría de growth marketing para empresas: análisis del embudo, analítica, experimentación priorizada y optimización de conversiones coordinada con tus canales.",
+  "h1": "Growth marketing: crecer con estrategia, datos y experimentos",
+  "kicker": "Servicio · Growth marketing",
+  "lead": "El growth marketing es un método para crecer de forma medible: se analiza el recorrido del cliente, se priorizan hipótesis, se ejecutan experimentos y se conserva lo que demuestra funcionar. No es un canal ni una táctica, sino una forma de trabajar que conecta el sitio web, las campañas, la analítica y el proceso comercial.",
+  "serviceType": "Consultoría de growth marketing y optimización de conversiones",
+  "cta": { "titulo": "¿Quieres ordenar tu estrategia de crecimiento?", "texto": "Cuéntanos cómo captas clientes hoy y qué datos tienes. Empezamos por encontrar la mayor oportunidad." },
+  "relacionados": { "servicios": ["desarrollo-web", "google-ads", "meta-ads"], "recursos": ["como-elegir-agencia-marketing-digital-chile", "google-ads-para-empresas-cuando-conviene-invertir"] },
+  "secciones": [
+    {
+      "id": "que-es-growth-marketing",
+      "h2": "¿Qué es el growth marketing?",
+      "parrafos": [
+        "Es una disciplina que combina estrategia, analítica y experimentación para mejorar los resultados comerciales de una empresa. En lugar de optimizar un canal por separado, mira el recorrido completo: cómo llegan las personas, qué hacen en el sitio, cuántas se convierten en contacto y cuántos contactos terminan siendo clientes.",
+        "El trabajo se organiza en ciclos: analizar, formular hipótesis, probar, medir y decidir. Cada ciclo deja un aprendizaje, incluso cuando la hipótesis no se confirma."
+      ]
+    },
+    {
+      "id": "growth-vs-publicidad-aislada",
+      "h2": "Growth marketing frente a la publicidad aislada",
+      "parrafos": ["La publicidad aislada es una pieza del sistema; el growth marketing se ocupa del sistema completo."],
+      "tabla": {
+        "caption": "Diferencias entre publicidad aislada y growth marketing",
+        "cabeceras": ["Criterio", "Publicidad aislada", "Growth marketing"],
+        "filas": [
+          ["Foco", "Optimizar las campañas de un canal", "Optimizar el recorrido completo del cliente"],
+          ["Pregunta guía", "¿Cuántos clics o contactos obtuvimos?", "¿Qué cambio mejora el resultado de negocio?"],
+          ["Decisiones", "Según indicadores de la plataforma", "Según experimentos y datos de varias fuentes"],
+          ["Alcance", "Plataforma publicitaria", "Sitio, campañas, analítica, CRM y proceso comercial"],
+          ["Riesgo", "Optimizar métricas que no se traducen en ventas", "Requiere más coordinación y datos confiables"]
+        ]
+      },
+      "nota": "La publicidad sigue siendo clave: la gestionamos en [Google Ads](/google-ads/) y [Meta Ads](/meta-ads/), pero dentro de una estrategia común."
+    },
+    {
+      "id": "analisis-del-embudo",
+      "h2": "Análisis del embudo de adquisición y conversión",
+      "parrafos": ["Mapeamos las etapas por las que pasa una persona desde que conoce tu empresa hasta que compra, y medimos la conversión entre cada una. El cuello de botella suele ser el mejor lugar para empezar."],
+      "tipo": "etapas",
+      "etapas": [
+        { "t": "Visita", "d": "Quién llega al sitio, por qué canal y con qué intención." },
+        { "t": "Interés", "d": "Qué páginas consulta y qué señales de interés muestra." },
+        { "t": "Contacto", "d": "Cuántas visitas dejan sus datos, llaman o escriben." },
+        { "t": "Oportunidad", "d": "Cuántos contactos son calificados por el equipo comercial." },
+        { "t": "Cliente", "d": "Cuántas oportunidades se cierran y con qué valor." }
+      ]
+    },
+    {
+      "id": "experimentacion-priorizada",
+      "h2": "Experimentación priorizada por impacto, esfuerzo y confianza",
+      "parrafos": [
+        "Las ideas abundan; el tiempo no. Para ordenarlas puntuamos cada hipótesis según el impacto esperado, la confianza que tenemos en ella y el esfuerzo que requiere. Una forma simple de combinarlos es: prioridad = impacto × confianza ÷ esfuerzo."
+      ],
+      "tabla": {
+        "caption": "Ejemplo ilustrativo con datos ficticios de priorización de hipótesis",
+        "cabeceras": ["Hipótesis", "Impacto (1-10)", "Confianza (1-10)", "Esfuerzo (1-10)", "Prioridad"],
+        "filas": [
+          ["Simplificar el formulario de contacto", "7", "7", "2", "24,5"],
+          ["Agregar prueba social verificable en la página de servicio", "6", "6", "3", "12,0"],
+          ["Crear una landing específica para la campaña principal", "8", "6", "5", "9,6"],
+          ["Rediseñar todo el sitio", "9", "4", "9", "4,0"]
+        ]
+      },
+      "nota": "Los números de la tabla son ilustrativos: sirven para mostrar el método y no representan resultados reales de ningún cliente."
+    },
+    {
+      "id": "analitica-y-conversiones",
+      "h2": "Analítica y optimización de conversiones",
+      "parrafos": ["Sin datos confiables no hay experimentos válidos. Antes de optimizar, nos aseguramos de medir bien:"],
+      "items": [
+        "Un plan de medición con eventos y conversiones definidos.",
+        "GA4 y Google Tag Manager configurados con respeto al consentimiento.",
+        "Paneles con las métricas que realmente importan para decidir.",
+        "Pruebas A/B cuando hay tráfico suficiente; pruebas cualitativas o secuenciales cuando no lo hay.",
+        "Mejoras en formularios, mensajes, velocidad y estructura de las páginas."
+      ]
+    },
+    {
+      "id": "coordinacion-comercial",
+      "h2": "Coordinación entre sitio web, campañas y proceso comercial",
+      "parrafos": ["Un contacto no vale lo mismo en todas las empresas. Cuando el equipo comercial puede devolver información sobre qué contactos fueron calificados o cerraron, las campañas se optimizan por calidad y no solo por volumen. Definimos contigo cómo registrar y compartir esa información, y cómo se conecta con el [sitio web](/desarrollo-web/) y con cada campaña."]
+    },
+    {
+      "id": "indicadores",
+      "h2": "Indicadores relevantes según el negocio",
+      "parrafos": ["No existe un único indicador correcto. Estos son ejemplos de qué suele priorizarse según el tipo de negocio:"],
+      "tabla": {
+        "caption": "Indicadores a priorizar según el tipo de negocio",
+        "cabeceras": ["Tipo de negocio", "Indicadores a priorizar"],
+        "filas": [
+          ["Servicios B2B", "Contactos calificados, tasa de visita a contacto, costo por oportunidad y tasa de cierre"],
+          ["Comercio electrónico", "Tasa de conversión, valor medio del pedido, costo de adquisición y margen"],
+          ["Servicios locales", "Llamadas, solicitudes de cotización, costo por contacto y reservas"],
+          ["Contenido o suscripción", "Registros, activación y retención"]
+        ]
+      },
+      "nota": "Evitamos las métricas de vanidad, como impresiones o seguidores, cuando no se conectan con una decisión."
+    }
+  ],
+  "faqs": [
+    { "q": "¿Qué diferencia hay entre growth marketing y marketing digital?", "a": "El marketing digital es el conjunto de canales y tácticas en línea. El growth marketing es un método para decidir cuáles usar y cómo mejorarlos, basado en datos y experimentos, mirando el recorrido completo del cliente." },
+    { "q": "¿Necesito mucho tráfico para experimentar?", "a": "Las pruebas A/B necesitan un volumen mínimo de datos para ser concluyentes. Si tu tráfico es bajo, usamos pruebas cualitativas, análisis de comportamiento y cambios secuenciales medidos con cuidado." },
+    { "q": "¿Cuánto tiempo toma ver mejoras?", "a": "Depende del punto de partida, del volumen de datos y de los cambios que se prueben. No prometemos plazos ni cifras; sí un ciclo de trabajo claro, con decisiones documentadas." },
+    { "q": "¿Qué información de mi empresa necesitan?", "a": "Idealmente, acceso de lectura a tus herramientas de analítica y publicidad, información de ventas o de contactos calificados, y claridad sobre tus objetivos comerciales." },
+    { "q": "¿Pueden trabajar con mi equipo interno?", "a": "Sí. El trabajo se coordina con quienes llevan ventas, operación y contenidos, porque muchas mejoras dependen de cambios fuera de las campañas." },
+    { "q": "¿Es solo para empresas grandes?", "a": "No. El método sirve para cualquier tamaño, pero el alcance se adapta a los datos y al tiempo disponible. Una empresa pequeña puede empezar por medir bien y mejorar un par de puntos críticos del embudo." }
+  ]
+}

@@ -1,0 +1,93 @@
+<div class="page-head">
+  <div class="wrap">
+    {{> breadcrumbs}}
+    <p class="kicker">Agencia</p>
+    <h1>{{ h1 }}</h1>
+    <p class="lead">{{{ lead }}}</p>
+  </div>
+</div>
+
+<section class="section" aria-labelledby="enfoque-t">
+  <div class="wrap duo">
+    <div>
+      <h2 id="enfoque-t">Un enfoque, no un catálogo</h2>
+    </div>
+    <div class="prose">
+      {{#each enfoque as p}}<p>{{{ p }}}</p>{{/each}}
+      {{{ pendienteEquipo }}}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="equipo-t">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">Equipo</p>
+      <h2 id="equipo-t">Las personas detrás de Tabano</h2>
+    </div>
+    <div class="equipo">
+      {{#each equipo as p}}
+      <article class="persona" id="{{ p.slug }}">
+        <img src="{{ p.foto }}" width="240" height="240" loading="lazy" alt="{{ p.fotoAlt }}">
+        <div>
+          <h3>{{ p.nombre }}</h3>
+          <p class="rol">{{ p.rol }}</p>
+          {{#each p.bio as parrafo}}<p>{{ parrafo }}</p>{{/each}}
+          {{#if p.url}}<p><a class="arrow-link" href="{{ p.url }}" rel="noopener">{{ p.urlTexto }} <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a></p>{{/if}}
+        </div>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" aria-labelledby="principios-t">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="principios-t">Principios de trabajo</h2>
+    </div>
+    <div class="principios">
+      {{#each principios as p}}
+      <article>
+        <h3>{{ p.titulo }}</h3>
+        <p>{{ p.texto }}</p>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="metodo-t">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="metodo-t">Metodología en cinco pasos</h2>
+      <p>Cada paso tiene entregables concretos para que sepas qué recibes y puedas evaluarlo.</p>
+    </div>
+    <ol class="pasos">
+      {{#each metodologia as m}}
+      <li>
+        <h3>{{ m.titulo }}</h3>
+        <p>{{ m.texto }}</p>
+        <ul>{{#each m.entregables as e}}<li>{{ e }}</li>{{/each}}</ul>
+      </li>
+      {{/each}}
+    </ol>
+  </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="limites-t">
+  <div class="wrap duo">
+    <div>
+      <h2 id="limites-t">Lo que no hacemos</h2>
+      <p class="lead">Ser claros con los límites también es parte del servicio.</p>
+    </div>
+    <div>
+      <ul class="check-list">
+        {{#each limites as l}}<li>{{{ l }}}</li>{{/each}}
+      </ul>
+      {{{ pendienteCompromisos }}}
+    </div>
+  </div>
+</section>
+
+{{> cta}}

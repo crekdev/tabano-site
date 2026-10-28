@@ -1,0 +1,97 @@
+{
+  "servicios": {
+    "h1": "Servicios de desarrollo web, publicidad digital y growth marketing",
+    "lead": "Tabano reúne cuatro servicios que se complementan: [desarrollo web](/desarrollo-web/), campañas en [Google Ads](/google-ads/) y [Meta Ads](/meta-ads/), y [growth marketing](/growth-marketing/). Esta página explica para qué sirve cada uno y cómo elegir el punto de partida.",
+    "guia": [
+      {
+        "situacion": "Tu sitio actual es lento, confuso o casi no genera consultas.",
+        "servicio": "[Desarrollo web](/desarrollo-web/)",
+        "motivo": "Invertir en anuncios hacia un sitio que no convierte encarece cada contacto."
+      },
+      {
+        "situacion": "Quieres captar a personas que ya buscan lo que vendes.",
+        "servicio": "[Google Ads](/google-ads/)",
+        "motivo": "Responde a una intención de búsqueda que ya existe, siempre que haya una página de destino adecuada."
+      },
+      {
+        "situacion": "Quieres darte a conocer o activar una demanda que todavía no busca activamente.",
+        "servicio": "[Meta Ads](/meta-ads/)",
+        "motivo": "Permite llegar a audiencias en Facebook e Instagram según intereses, comportamiento o listas propias."
+      },
+      {
+        "situacion": "Tienes tráfico y campañas, pero no sabes qué está funcionando.",
+        "servicio": "[Growth marketing](/growth-marketing/)",
+        "motivo": "Ordena la medición y las pruebas para decidir con datos qué mantener, cambiar o detener."
+      },
+      {
+        "situacion": "Estás partiendo desde cero.",
+        "servicio": "Desarrollo web con medición y, después, campañas",
+        "motivo": "Primero conviene una base que convierta y mida; luego se escala la inversión con menos incertidumbre."
+      }
+    ],
+    "conexion": [
+      "Cada servicio puede contratarse por separado, pero los resultados dependen de que las piezas estén conectadas. Una campaña de Google Ads o de Meta Ads lleva personas a una página; si esa página no explica bien la oferta o el formulario falla, la inversión se pierde en el último tramo.",
+      "Por eso el [desarrollo web](/desarrollo-web/) incluye la medición de conversiones desde el inicio, y el [growth marketing](/growth-marketing/) usa esos datos para decidir qué probar en las campañas y en el sitio.",
+      "Si no sabes por dónde partir, el diagnóstico inicial sirve justamente para eso: ordenar prioridades antes de comprometer presupuesto."
+    ]
+  },
+  "agencia": {
+    "h1": "Una agencia que conecta sitio, campañas y datos",
+    "lead": "Tabano es una agencia de marketing digital en Chile. Ayudamos a las empresas a que su presencia digital genere contactos y ventas medibles, y no solo visitas.",
+    "enfoque": [
+      "Muchas empresas contratan por separado el sitio web, la publicidad y los reportes. Cada proveedor optimiza lo suyo y nadie mira el recorrido completo: desde el anuncio hasta la consulta o la venta. Tabano parte por ese recorrido.",
+      "Trabajamos con cuatro frentes que se complementan: [desarrollo web](/desarrollo-web/), [Google Ads](/google-ads/), [Meta Ads](/meta-ads/) y [growth marketing](/growth-marketing/). El criterio para elegir qué hacer primero es siempre el mismo: qué decisión de negocio se puede mejorar con los datos disponibles."
+    ],
+    "limites": [
+      "**No prometemos posiciones ni resultados garantizados.** Nadie puede garantizar resultados en buscadores o redes sociales; lo que sí podemos comprometer es un método, entregables y transparencia.",
+      "**No vendemos paquetes cerrados sin diagnóstico.** El alcance se define según tu situación, tus objetivos y tus datos.",
+      "**No escondemos cuentas ni datos.** Las cuentas publicitarias y de analítica deben quedar a nombre de tu empresa.",
+      "**No reportamos solo lo que se ve bien.** También informamos lo que no funcionó y qué aprendimos.",
+      "**No publicamos testimonios, cifras ni logos sin autorización y respaldo.**"
+    ]
+  },
+  "casos": {
+    "h1": "Casos de éxito",
+    "lead": "Esta sección reunirá proyectos reales, con el contexto, lo que se hizo y lo que se midió. Todavía no hay casos publicados.",
+    "vacio": [
+      "Preferimos no mostrar cifras, logos ni testimonios que no podamos respaldar o que el cliente no haya autorizado.",
+      "Cuando publiquemos el primer caso, indicará el contexto, el periodo medido y las limitaciones de la comparación, para que puedas evaluar los resultados con criterio.",
+      "Mientras tanto, puedes leer las lecciones de siete proyectos previos de Cristóbal, parte del equipo, en [Siete casos de Growth y Paid Media B2B y las lecciones que dejan](/recursos/casos-growth-paid-media-b2b-lecciones/). Son resultados de otras empresas, no casos de Tabano."
+    ],
+    "estructura": [
+      {
+        "t": "Contexto y objetivo",
+        "d": "Qué necesitaba el cliente y cómo se definió el éxito."
+      },
+      {
+        "t": "Qué se hizo",
+        "d": "Acciones concretas en sitio, campañas y medición."
+      },
+      {
+        "t": "Qué se midió",
+        "d": "Indicadores, fuente de los datos y periodo comparado."
+      },
+      {
+        "t": "Resultados y límites",
+        "d": "Lo que mejoró, lo que no y qué otros factores pudieron influir."
+      },
+      {
+        "t": "Autorización",
+        "d": "Publicado solo con el permiso del cliente."
+      }
+    ]
+  },
+  "recursos": {
+    "h1": "Recursos de marketing digital y desarrollo web",
+    "lead": "Guías prácticas para decidir con criterio: cómo elegir una agencia, qué factores cambian el costo de un sitio y cuándo conviene invertir en Google Ads. Cada artículo muestra su fecha de actualización y, cuando corresponde, sus fuentes."
+  },
+  "contacto": {
+    "h1": "Hablemos de tu proyecto",
+    "lead": "Cuéntanos qué quieres lograr y cuál es tu situación actual. Usamos esta información para preparar un diagnóstico inicial.",
+    "pasos": [
+      "Recibimos tu mensaje y revisamos tu sitio y tu contexto.",
+      "Te escribimos al correo que indiques para aclarar dudas y proponerte los siguientes pasos.",
+      "Si tiene sentido trabajar juntos, definimos por escrito el alcance, los entregables y los indicadores."
+    ]
+  }
+}

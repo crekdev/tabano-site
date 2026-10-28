@@ -1,0 +1,8 @@
+<div class="faq">
+  {{#each faqs as f}}
+  <details class="faq-item">
+    <summary>{{ f.q }}</summary>
+    <div><p>{{{ f.a }}}</p></div>
+  </details>
+  {{/each}}
+</div>

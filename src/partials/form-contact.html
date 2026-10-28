@@ -1,0 +1,70 @@
+<form class="form" name="contact" method="POST" action="/gracias/" data-netlify="true" data-netlify-honeypot="bot-field" aria-labelledby="form-titulo">
+  <input type="hidden" name="form-name" value="contact">
+  <p class="hp" aria-hidden="true"><label>No completes este campo si eres una persona: <input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+
+  <div id="form-alert" class="form-alert" role="alert" tabindex="-1" hidden></div>
+
+  <div class="form-row">
+    <div class="field">
+      <label for="f-nombre">Nombre <span aria-hidden="true">*</span></label>
+      <input type="text" id="f-nombre" name="nombre" autocomplete="name" required aria-required="true" aria-describedby="f-nombre-error">
+      <p class="field-error" id="f-nombre-error" hidden></p>
+    </div>
+    <div class="field">
+      <label for="f-email">Correo electrónico <span aria-hidden="true">*</span></label>
+      <input type="email" id="f-email" name="email" autocomplete="email" inputmode="email" required aria-required="true" aria-describedby="f-email-error">
+      <p class="field-error" id="f-email-error" hidden></p>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="field">
+      <label for="f-empresa">Empresa <span class="opt">(opcional)</span></label>
+      <input type="text" id="f-empresa" name="empresa" autocomplete="organization">
+    </div>
+    <div class="field">
+      <label for="f-sitio">Sitio web <span class="opt">(opcional)</span></label>
+      <input type="text" id="f-sitio" name="sitio_web" autocomplete="url" inputmode="url" placeholder="tuempresa.cl" aria-describedby="f-sitio-error">
+      <p class="field-error" id="f-sitio-error" hidden></p>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="field">
+      <label for="f-servicio">Servicio de interés <span aria-hidden="true">*</span></label>
+      <select id="f-servicio" name="servicio" required aria-required="true" aria-describedby="f-servicio-error">
+        <option value="">Selecciona una opción</option>
+        {{#each opcionesServicio as o}}<option value="{{ o }}">{{ o }}</option>{{/each}}
+      </select>
+      <p class="field-error" id="f-servicio-error" hidden></p>
+    </div>
+    <div class="field">
+      <label for="f-presupuesto">Presupuesto mensual orientativo <span class="opt">(opcional)</span></label>
+      <select id="f-presupuesto" name="presupuesto" aria-describedby="f-presupuesto-hint">
+        <option value="">Prefiero conversarlo</option>
+        {{#each opcionesPresupuesto as o}}<option value="{{ o }}">{{ o }}</option>{{/each}}
+      </select>
+      <p class="field-hint" id="f-presupuesto-hint">Nos ayuda a proponer un alcance realista. No es un compromiso.</p>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="f-mensaje">¿Qué necesitas? <span aria-hidden="true">*</span></label>
+    <textarea id="f-mensaje" name="mensaje" rows="5" required aria-required="true" aria-describedby="f-mensaje-error"></textarea>
+    <p class="field-error" id="f-mensaje-error" hidden></p>
+  </div>
+
+  <div class="field">
+    <div class="check">
+      <input type="checkbox" id="f-consentimiento" name="consentimiento" value="si" required aria-required="true" aria-describedby="f-consentimiento-error">
+      <label for="f-consentimiento">Acepto que Tabano use estos datos para responder mi solicitud, según la <a href="/privacidad/">política de privacidad</a>. <span aria-hidden="true">*</span></label>
+    </div>
+    <p class="field-error" id="f-consentimiento-error" hidden></p>
+  </div>
+
+  <p class="field-hint"><span aria-hidden="true">*</span> Campo obligatorio.</p>
+  <div>
+    <button class="btn btn-primary" type="submit"><span class="btn-text">Enviar solicitud</span> <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+  </div>
+  <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+</form>

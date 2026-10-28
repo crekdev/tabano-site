@@ -1,0 +1,50 @@
+<div class="page-head">
+  <div class="wrap">
+    {{> breadcrumbs}}
+    <p class="kicker">Servicios</p>
+    <h1>{{ h1 }}</h1>
+    <p class="lead">{{{ lead }}}</p>
+  </div>
+</div>
+
+<section class="section" aria-labelledby="lista-t">
+  <div class="wrap">
+    <h2 id="lista-t" class="sr-only">Lista de servicios</h2>
+    <div class="grid-4">
+      {{#each servicios as s}}{{> servicio-card}}{{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="elegir-t">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="elegir-t">¿Por dónde conviene empezar?</h2>
+      <p>La respuesta depende de tu situación actual. Esta tabla es una guía general; en el diagnóstico la ajustamos a tu caso.</p>
+    </div>
+    <div class="tabla-wrap" tabindex="0" role="region" aria-label="Qué servicio elegir según tu situación">
+      <table>
+        <caption>Guía orientativa para elegir el punto de partida</caption>
+        <thead><tr><th scope="col">Tu situación</th><th scope="col">Punto de partida</th><th scope="col">Por qué</th></tr></thead>
+        <tbody>
+          {{#each guia as g}}
+          <tr><th scope="row">{{{ g.situacion }}}</th><td>{{{ g.servicio }}}</td><td>{{{ g.motivo }}}</td></tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="conexion-t">
+  <div class="wrap duo">
+    <div>
+      <h2 id="conexion-t">Cómo se conectan los cuatro servicios</h2>
+    </div>
+    <div class="prose">
+      {{#each conexion as p}}<p>{{{ p }}}</p>{{/each}}
+    </div>
+  </div>
+</section>
+
+{{> cta}}

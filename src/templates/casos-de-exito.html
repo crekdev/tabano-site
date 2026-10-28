@@ -1,0 +1,43 @@
+<div class="page-head">
+  <div class="wrap">
+    {{> breadcrumbs}}
+    <p class="kicker">Casos de éxito</p>
+    <h1>{{ h1 }}</h1>
+    <p class="lead">{{{ lead }}}</p>
+  </div>
+</div>
+
+<section class="section" aria-labelledby="casos-t">
+  <div class="wrap">
+    {{#if casos}}
+    <h2 id="casos-t" class="sr-only">Casos publicados</h2>
+    <div class="cards-articulos">
+      {{#each casos as c}}
+      <article class="articulo-card">
+        <span class="tag">{{ c.sector }}</span>
+        <h3>{{ c.titulo }}</h3>
+        <p>{{ c.resumen }}</p>
+      </article>
+      {{/each}}
+    </div>
+    {{else}}
+    <div class="duo">
+      <div>
+        <h2 id="casos-t">Aún no publicamos casos</h2>
+        <div class="prose">
+          {{#each vacio as p}}<p>{{{ p }}}</p>{{/each}}
+        </div>
+        {{{ pendienteCasos }}}
+      </div>
+      <div>
+        <h3>Qué incluirá cada caso</h3>
+        <ol class="etapas">
+          {{#each estructura as e}}<li><strong>{{{ e.t }}}</strong><span>{{{ e.d }}}</span></li>{{/each}}
+        </ol>
+      </div>
+    </div>
+    {{/if}}
+  </div>
+</section>
+
+{{> cta}}

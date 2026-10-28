@@ -1,0 +1,18 @@
+{
+  "name": "tabano-cl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web de Tabano (tabano.cl): agencia de marketing digital, desarrollo web y growth. Sitio estático sin dependencias.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node scripts/check.mjs",
+    "contrast": "node scripts/contrast.mjs",
+    "og": "node scripts/make-og.mjs",
+    "test": "node build.mjs && node scripts/check.mjs && node scripts/contrast.mjs",
+    "test:browser": "bash tests/run.sh"
+  }
+}

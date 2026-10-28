@@ -1,0 +1,10 @@
+<section class="cta-band" aria-labelledby="cta-titulo">
+  <div class="wrap">
+    <h2 id="cta-titulo">{{ cta.titulo }}</h2>
+    <p>{{ cta.texto }}</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="{{ cta.href }}" data-track="contact" data-location="cta_final">Solicitar diagnóstico <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      {{#if site.contacto.email}}<a class="btn btn-ghost" href="mailto:{{ site.contacto.email }}" data-location="cta_final">Escribir por correo</a>{{/if}}
+    </div>
+  </div>
+</section>

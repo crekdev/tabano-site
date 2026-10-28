@@ -1,0 +1,44 @@
+<div class="wrap articulo-head">
+  {{> breadcrumbs}}
+  <p class="kicker">{{ categoria }}</p>
+  <h1>{{ h1 }}</h1>
+  <p class="articulo-meta"><span>Publicado el <time datetime="{{ fecha }}">{{ fechaTexto }}</time></span><span>Actualizado el <time datetime="{{ actualizado }}">{{ actualizadoTexto }}</time></span><span>{{ minutos }} min de lectura</span><span>Por <a href="/agencia/#{{ autor.slug }}">{{ autor.nombre }}</a></span></p>
+</div>
+
+<div class="wrap">
+  <div class="respuesta">
+    <span class="tag">En pocas palabras</span>
+    <p>{{ resumen }}</p>
+  </div>
+  {{#if toc}}
+  <nav class="indice-articulo" aria-label="Contenido del artículo">
+    <p>En este artículo</p>
+    <ol>{{#each toc as t}}<li><a href="#{{ t.id }}">{{ t.h2 }}</a></li>{{/each}}</ol>
+  </nav>
+  {{/if}}
+  <article class="prose">
+    {{{ html }}}
+  </article>
+</div>
+
+<div class="wrap">
+  <aside class="autor-box" aria-label="Sobre el autor">
+    <img src="{{ autor.foto }}" width="96" height="96" loading="lazy" alt="{{ autor.fotoAlt }}">
+    <div>
+      <p class="autor-nombre"><a href="/agencia/#{{ autor.slug }}">{{ autor.nombre }}</a> <span class="rol">· {{ autor.rol }}</span></p>
+      <p>{{ autor.bioCorta }}</p>
+    </div>
+  </aside>
+</div>
+
+<section class="section section-alt" style="margin-top:4rem" aria-labelledby="mas-t">
+  <div class="wrap">
+    <h2 id="mas-t">Para seguir</h2>
+    <div class="relacionados">
+      {{#if servicioRel}}<a href="{{ servicioRel.url }}" data-track="service_cta" data-service="{{ servicioRel.slug }}" data-location="articulo"><small>Servicio relacionado</small><strong>{{ servicioRel.nombre }}</strong></a>{{/if}}
+      {{#each otros as r}}<a href="{{ r.url }}"><small>Otra guía</small><strong>{{ r.titulo }}</strong></a>{{/each}}
+    </div>
+  </div>
+</section>
+
+{{> cta}}

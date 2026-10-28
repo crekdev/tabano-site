@@ -1,0 +1,29 @@
+<div class="page-head">
+  <div class="wrap">
+    {{> breadcrumbs}}
+    <p class="kicker">Contacto</p>
+    <h1>{{ h1 }}</h1>
+    <p class="lead">{{{ lead }}}</p>
+  </div>
+</div>
+
+<div class="wrap contacto-grid">
+  <div>
+    <h2>Qué pasa después de enviar</h2>
+    <ol class="pasos-contacto">
+      {{#each pasos as p}}<li>{{{ p }}}</li>{{/each}}
+    </ol>
+    {{#if site.tieneContacto}}
+    <h2 style="margin-top:2.5rem;font-size:1.5rem">Otros canales</h2>
+    <ul class="lista">
+      {{#if site.contacto.email}}<li>Correo: <a href="mailto:{{ site.contacto.email }}" data-location="contacto">{{ site.contacto.email }}</a></li>{{/if}}
+      {{#each site.contacto.telefonos as t}}<li>Teléfono: <a href="tel:{{ t.href }}" data-location="contacto">{{ t.display }}</a>{{#if t.wa}} · <a href="https://wa.me/{{ t.wa }}" rel="noopener" data-location="contacto" aria-label="Escribir por WhatsApp al {{ t.display }}">WhatsApp</a>{{/if}}</li>{{/each}}
+      {{#if site.contacto.direccion}}<li>Dirección: {{ site.contacto.direccion }}, {{ site.contacto.ciudad }}, Chile</li>{{/if}}
+    </ul>
+    {{/if}}
+  </div>
+  <div class="form-card">
+    <h2 id="form-titulo" style="font-size:1.75rem">Cuéntanos tu proyecto</h2>
+    {{> form-contact}}
+  </div>
+</div>

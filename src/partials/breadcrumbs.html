@@ -1,0 +1,5 @@
+<nav class="crumbs" aria-label="Migas de pan">
+  <ol>
+    {{#each migas as m}}<li>{{#if m.last}}<span aria-current="page">{{ m.name }}</span>{{else}}<a href="{{ m.url }}">{{ m.name }}</a>{{/if}}</li>{{/each}}
+  </ol>
+</nav>

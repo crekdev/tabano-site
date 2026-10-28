@@ -1,0 +1,43 @@
+<div class="page-head">
+  <div class="wrap">
+    {{> breadcrumbs}}
+    <div class="head-grid">
+      <div>
+        <p class="kicker">{{ kicker }}</p>
+        <h1>{{ h1 }}</h1>
+        <p class="lead">{{{ lead }}}</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="{{ cta.href }}" data-track="contact" data-location="encabezado_servicio">Solicitar diagnóstico <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+      <svg class="grafico-grande" viewBox="0 0 120 84" aria-hidden="true" focusable="false"><use href="#{{ grafico }}"/></svg>
+    </div>
+  </div>
+</div>
+
+<div class="wrap doc">
+  {{#if toc}}
+  <nav class="toc" aria-label="En esta página">
+    <p class="toc-title">En esta página</p>
+    <ol>{{#each toc as t}}<li><a href="#{{ t.id }}">{{ t.h2 }}</a></li>{{/each}}</ol>
+  </nav>
+  {{/if}}
+  <div class="doc-body">
+    {{#each secciones as sec}}{{> seccion}}{{/each}}
+
+    <section class="bloque" aria-labelledby="faq-servicio">
+      <h2 id="faq-servicio">Preguntas frecuentes</h2>
+      {{> faq}}
+    </section>
+
+    <section class="bloque" aria-labelledby="relacionado-t">
+      <h2 id="relacionado-t">Sigue leyendo</h2>
+      <div class="relacionados">
+        {{#each relServicios as r}}<a href="{{ r.url }}"><small>Servicio</small><strong>{{ r.nombre }}</strong></a>{{/each}}
+        {{#each relRecursos as r}}<a href="{{ r.url }}"><small>Guía</small><strong>{{ r.titulo }}</strong></a>{{/each}}
+      </div>
+    </section>
+  </div>
+</div>
+
+{{> cta}}

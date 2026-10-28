@@ -1,0 +1,24 @@
+[build]
+  command = "node build.mjs"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[build.processing]
+  skip_processing = false
+
+# Netlify Forms: la detección se activa en el panel (Forms > Enable form detection)
+# y requiere un nuevo despliegue. El formulario "contact" está en /contacto/ como HTML estático.
+
+# Redirecciones 301 (agregar aquí las URLs de un sitio anterior, si existiera).
+# [[redirects]]
+#   from = "/servicios.html"
+#   to = "/servicios/"
+#   status = 301
+
+# Página 404 personalizada
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

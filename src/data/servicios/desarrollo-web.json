@@ -1,0 +1,147 @@
+{
+  "orden": 1,
+  "slug": "desarrollo-web",
+  "url": "/desarrollo-web/",
+  "nombre": "Desarrollo web",
+  "grafico": "g-web",
+  "problema": "Tu sitio recibe visitas, pero pocas se transforman en consultas.",
+  "resumen": "Sitios web empresariales rápidos, accesibles y medibles, pensados para captar contactos.",
+  "title": "Desarrollo web para empresas en Chile | Tabano",
+  "description": "Diseño y desarrollo de sitios web para empresas: arquitectura, SEO técnico, velocidad, accesibilidad y medición de conversiones. Cotiza tu proyecto con Tabano.",
+  "h1": "Desarrollo web para empresas que necesitan captar clientes",
+  "kicker": "Servicio · Desarrollo web",
+  "lead": "El desarrollo web empresarial consiste en diseñar, construir y mantener un sitio que explique con claridad qué ofrece tu empresa, cargue rápido en cualquier dispositivo y convierta visitas en contactos medibles. En Tabano lo planificamos junto con la analítica, el SEO técnico y las campañas que lo van a alimentar.",
+  "serviceType": "Desarrollo de sitios web empresariales",
+  "cta": { "titulo": "¿Quieres cotizar tu sitio web?", "texto": "Cuéntanos qué necesitas y te respondemos con un alcance claro y los siguientes pasos." },
+  "relacionados": { "servicios": ["google-ads", "meta-ads", "growth-marketing"], "recursos": ["cuanto-cuesta-sitio-web-empresarial", "como-elegir-agencia-marketing-digital-chile"] },
+  "secciones": [
+    {
+      "id": "que-incluye",
+      "h2": "¿Qué incluye el servicio de desarrollo web?",
+      "parrafos": ["Construimos sitios con un criterio simple: cada página debe cumplir una función dentro del proceso comercial. Un proyecto típico combina las piezas siguientes; el alcance exacto se define en la propuesta según tus objetivos."],
+      "items": [
+        "**Diagnóstico y objetivos comerciales:** qué debe lograr el sitio y cómo se va a medir.",
+        "**Arquitectura de información:** mapa del sitio, navegación y enlaces internos.",
+        "**Diseño de interfaz responsive:** pensado primero para móvil y adaptado a tablet y escritorio.",
+        "**Desarrollo con HTML semántico y JavaScript mínimo:** páginas livianas y fáciles de rastrear.",
+        "**SEO técnico base:** metadatos, canonical, sitemap, robots.txt y datos estructurados.",
+        "**Formularios y flujos de contacto** con seguimiento de conversiones.",
+        "**Integración con analítica:** Google Tag Manager y GA4 con eventos definidos.",
+        "**Pruebas de rendimiento y accesibilidad** antes de publicar.",
+        "**Publicación y traspaso** con documentación para tu equipo."
+      ]
+    },
+    {
+      "id": "tipos-de-sitios",
+      "h2": "Tipos de sitios web empresariales",
+      "parrafos": ["No todas las empresas necesitan lo mismo. Estos son los formatos más habituales:"],
+      "items": [
+        "**Sitio corporativo:** presenta la empresa, sus servicios y su propuesta de valor; normalmente es multipágina.",
+        "**Landing page:** una página enfocada en una sola acción (cotizar, agendar, descargar), pensada para recibir tráfico de campañas.",
+        "**Sitio de servicios:** una página por servicio, con contenido propio y un objetivo de búsqueda definido.",
+        "**Blog o centro de recursos:** contenido que responde preguntas de tus clientes y sostiene el posicionamiento en el tiempo.",
+        "**Directorios y catálogos:** muchas fichas con una estructura repetible; requieren datos ordenados y buena arquitectura.",
+        "**Tienda online:** se evalúa como un proyecto aparte, por el peso de los pagos, el inventario y la logística."
+      ]
+    },
+    {
+      "id": "landing-o-multipagina",
+      "h2": "Landing page o sitio multipágina: ¿cuál necesitas?",
+      "parrafos": ["Depende del objetivo. Una landing page funciona bien para una campaña puntual; un sitio multipágina es la base para posicionar varios servicios en Google y explicar una oferta más compleja."],
+      "tabla": {
+        "caption": "Comparación entre landing page y sitio multipágina",
+        "cabeceras": ["Criterio", "Landing page", "Sitio multipágina"],
+        "filas": [
+          ["Objetivo principal", "Una acción concreta: cotizar, agendar o descargar", "Explicar la empresa, posicionar varios servicios y captar contactos"],
+          ["Cuándo conviene", "Campañas de Google Ads o Meta Ads con una oferta específica", "Cuando hay varios servicios, necesidad de SEO o procesos de compra más largos"],
+          ["Posicionamiento orgánico", "Limitado: una sola página compite por pocas búsquedas", "Mayor potencial: cada servicio puede tener su página y su objetivo de búsqueda"],
+          ["Mantenimiento", "Bajo", "Medio: requiere actualizar contenidos y revisar enlaces"],
+          ["Medición", "Simple, con una conversión principal", "Más completa, con varios recorridos y conversiones"]
+        ]
+      },
+      "nota": "Muchas empresas combinan ambos: un sitio multipágina como base y landing pages para campañas específicas."
+    },
+    {
+      "id": "arquitectura-y-responsive",
+      "h2": "Arquitectura de información y diseño responsive",
+      "parrafos": [
+        "Antes de diseñar, ordenamos qué páginas necesita el sitio, cómo se enlazan entre sí y qué pregunta responde cada una. Esa estructura define la navegación, las URLs y los enlaces internos que ayudan tanto a las personas como a los buscadores.",
+        "El diseño se piensa primero para móvil y luego se amplía a tablet y escritorio. Revisamos que los textos sean legibles, los botones cómodos de tocar, los formularios fáciles de completar y que no aparezca scroll horizontal."
+      ]
+    },
+    {
+      "id": "seo-tecnico",
+      "h2": "SEO técnico: la base para que Google entienda tu sitio",
+      "parrafos": [
+        "El SEO técnico elimina obstáculos para que los buscadores rastreen, entiendan e indexen tus páginas: títulos y descripciones únicos, jerarquía de encabezados, URLs descriptivas, canonical, sitemap XML, robots.txt, datos estructurados y enlaces internos rastreables.",
+        "**Importante:** un sitio bien construido no garantiza posicionamiento. Las posiciones dependen también del contenido, de la competencia, de la autoridad del sitio y del tiempo. Nadie puede prometer resultados orgánicos por el solo hecho de lanzar una web. Si el posicionamiento es un objetivo, lo trabajamos como una línea de contenidos y mejora continua dentro de una estrategia de [growth marketing](/growth-marketing/)."
+      ]
+    },
+    {
+      "id": "velocidad-y-rendimiento",
+      "h2": "Velocidad y rendimiento: Core Web Vitals",
+      "parrafos": [
+        "Google recomienda evaluar la experiencia de página con tres métricas: LCP (qué tan rápido carga el contenido principal), INP (qué tan rápido responde el sitio a una interacción) y CLS (cuánto se mueve el diseño mientras carga). Los umbrales que Google considera buenos son LCP de 2,5 segundos o menos, INP de 200 milisegundos o menos y CLS de 0,1 o menos ([fuente: web.dev](https://web.dev/articles/vitals)).",
+        "Para acercarnos a esos valores usamos HTML estático cuando es posible, imágenes y fuentes optimizadas, JavaScript mínimo y espacio reservado para los elementos que cargan después. Medimos antes y después de publicar, y reportamos los valores medidos, no promesas."
+      ]
+    },
+    {
+      "id": "accesibilidad",
+      "h2": "Accesibilidad: un sitio que todas las personas puedan usar",
+      "parrafos": [
+        "Tomamos WCAG 2.2 nivel AA como objetivo de diseño y desarrollo: contraste suficiente, navegación completa por teclado, estados de foco visibles, etiquetas en los formularios, textos alternativos útiles y estructura semántica compatible con lectores de pantalla.",
+        "La accesibilidad mejora la experiencia de todos tus visitantes y reduce barreras para tus clientes. El cumplimiento completo exige además una revisión manual en cada proyecto."
+      ]
+    },
+    {
+      "id": "formularios-y-analitica",
+      "h2": "Formularios, conversiones y analítica",
+      "parrafos": ["Un sitio que no mide no puede mejorar. Dejamos configurado lo necesario para saber qué páginas y qué canales generan contactos:"],
+      "items": [
+        "Formularios con validación clara y mensajes de error accesibles.",
+        "Protección contra spam sin obligar a resolver captchas, cuando es posible.",
+        "Página de confirmación para distinguir el envío exitoso del simple intento de envío.",
+        "Integración con Google Tag Manager y GA4, con eventos definidos: inicio de formulario, envío, clic en contacto y clic en llamadas a la acción.",
+        "Activación de las herramientas de medición solo con el consentimiento de la persona, cuando corresponde."
+      ]
+    },
+    {
+      "id": "etapas-del-proyecto",
+      "h2": "Etapas del proyecto",
+      "tipo": "etapas",
+      "etapas": [
+        { "t": "Descubrimiento", "d": "Objetivos comerciales, público, oferta, competencia y requisitos técnicos." },
+        { "t": "Arquitectura y contenidos", "d": "Mapa del sitio, mensajes por página y estructura de contenidos." },
+        { "t": "Diseño", "d": "Sistema visual, componentes y versiones responsive para validar." },
+        { "t": "Desarrollo e integración", "d": "Construcción, formularios, analítica y SEO técnico base." },
+        { "t": "Pruebas y publicación", "d": "Revisión de enlaces, rendimiento, accesibilidad y formularios; lanzamiento." },
+        { "t": "Medición y mejora", "d": "Seguimiento de conversiones y ajustes con datos reales." }
+      ]
+    },
+    {
+      "id": "factores-del-precio",
+      "h2": "¿De qué depende el precio de un sitio web?",
+      "parrafos": ["El precio de un sitio web empresarial varía mucho porque el alcance varía mucho. Estos son los factores que más pesan al cotizar:"],
+      "items": [
+        "Cantidad y complejidad de las páginas.",
+        "Contenido: si se redacta y produce para el proyecto o lo entregas listo.",
+        "Diseño a medida o apoyado en un sistema de diseño existente.",
+        "Integraciones: CRM, agendamiento, pagos, correo.",
+        "Funciones dinámicas: buscadores, calculadoras, áreas privadas.",
+        "Migración desde un sitio anterior, con redirecciones y cuidado del SEO.",
+        "Idiomas, requisitos de accesibilidad y de seguridad.",
+        "Mantenimiento y evolución posterior."
+      ],
+      "nota": "Una cotización comparable parte de un alcance escrito. Para profundizar, lee [Cuánto cuesta desarrollar un sitio web empresarial](/recursos/cuanto-cuesta-sitio-web-empresarial/)."
+    }
+  ],
+  "faqs": [
+    { "q": "¿Cuánto demora el desarrollo de un sitio web?", "a": "Depende del alcance: la cantidad de páginas, la disponibilidad de los contenidos y las integraciones. En la propuesta definimos un cronograma por etapas; los tiempos de revisión y aprobación del cliente también influyen." },
+    { "q": "¿Mi sitio va a aparecer primero en Google?", "a": "No podemos prometerlo, y desconfía de quien lo haga. Dejamos el sitio técnicamente preparado para ser rastreado e indexado, pero las posiciones dependen del contenido, la competencia y el tiempo." },
+    { "q": "¿Puedo actualizar el contenido yo mismo?", "a": "Se define al acordar el alcance. Según la tecnología elegida, puedes editar textos directamente, usar un panel de administración o solicitar los cambios al equipo." },
+    { "q": "¿El sitio funcionará bien en celulares?", "a": "Sí: diseñamos primero para móvil y revisamos el sitio en distintos tamaños de pantalla, con foco en legibilidad, botones táctiles y formularios fáciles de completar." },
+    { "q": "¿Qué necesito entregar para comenzar?", "a": "Idealmente, los objetivos del sitio, la descripción de tus servicios, referencias que te gusten, logotipo y contenidos existentes, y acceso al dominio y a las herramientas de analítica si ya las tienes." },
+    { "q": "¿Pueden mejorar un sitio que ya tengo?", "a": "Sí. Podemos auditar tu sitio actual y recomendar si conviene mejorarlo por partes o rehacerlo. Si hay posicionamiento previo, cuidamos las URLs y las redirecciones." },
+    { "q": "¿Quién es dueño del dominio y del sitio?", "a": "Lo recomendable es que el dominio y las cuentas queden a nombre de tu empresa. Lo dejamos escrito en la propuesta, junto con el alcance y la documentación que se entrega al final." }
+  ]
+}

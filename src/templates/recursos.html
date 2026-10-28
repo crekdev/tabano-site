@@ -1,0 +1,19 @@
+<div class="page-head">
+  <div class="wrap">
+    {{> breadcrumbs}}
+    <p class="kicker">Recursos</p>
+    <h1>{{ h1 }}</h1>
+    <p class="lead">{{{ lead }}}</p>
+  </div>
+</div>
+
+<section class="section" aria-labelledby="articulos-t">
+  <div class="wrap">
+    <h2 id="articulos-t" class="sr-only">Artículos</h2>
+    <div class="cards-articulos">
+      {{#each articulos as a}}{{> articulo-card}}{{/each}}
+    </div>
+  </div>
+</section>
+
+{{> cta}}

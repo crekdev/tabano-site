@@ -1,0 +1,45 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="/"><img src="/assets/img/logo-tabano-claro.png" width="154" height="63" alt="Tabano, ir al inicio"></a>
+        <p>{{ site.descripcion }}</p>
+        {{#if site.redes}}
+        <ul class="foot-redes">
+          {{#each site.redes as r}}<li><a href="{{ r.url }}" rel="noopener me">{{ r.name }}</a></li>{{/each}}
+        </ul>
+        {{/if}}
+      </div>
+      <div>
+        <p class="foot-title">Servicios</p>
+        <ul>
+          {{#each site.servicios as s}}<li><a href="{{ s.url }}">{{ s.nombre }}</a></li>{{/each}}
+        </ul>
+      </div>
+      <div>
+        <p class="foot-title">Tabano</p>
+        <ul>
+          <li><a href="/agencia/">Agencia</a></li>
+          <li><a href="/casos-de-exito/">Casos de éxito</a></li>
+          <li><a href="/recursos/">Recursos</a></li>
+          <li><a href="/contacto/">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-title">Contacto</p>
+        <ul>
+          {{#if site.contacto.email}}<li><a href="mailto:{{ site.contacto.email }}" data-location="footer">{{ site.contacto.email }}</a></li>{{/if}}
+          {{#each site.contacto.telefonos as t}}<li><a href="tel:{{ t.href }}" data-location="footer">{{ t.display }}</a>{{#if t.wa}} · <a href="https://wa.me/{{ t.wa }}" rel="noopener" data-location="footer" aria-label="Escribir por WhatsApp al {{ t.display }}">WhatsApp</a>{{/if}}</li>{{/each}}
+          <li><a href="/contacto/" data-track="contact" data-location="footer">Formulario de contacto</a></li>
+          {{#if site.contacto.direccion}}<li class="foot-dir">{{ site.contacto.direccion }}, {{ site.contacto.ciudad }}</li>{{/if}}
+          <li><a href="/privacidad/">Política de privacidad</a></li>
+          {{#if site.gtmId}}<li><button type="button" class="link-btn" data-consent-open>Preferencias de cookies</button></li>{{/if}}
+        </ul>
+      </div>
+    </div>
+    <div class="foot-note">
+      <p class="foot-copy">© {{ site.anio }} Tabano. Chile. Contenido revisado el {{ site.actualizado }}.</p>
+    </div>
+  </div>
+</footer>
+{{#if site.gtmId}}{{> consent}}{{/if}}
